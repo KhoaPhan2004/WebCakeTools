@@ -1,0 +1,29 @@
+﻿@model WebCakeTools.Models.ProductCategory
+
+@{
+    ViewBag.Title = "Auto Update Category";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div style="text-align: center; margin-top: 100px;">
+    <h2>Đang thêm danh mục cho sản phẩm...</h2>
+    <p>Vui lòng chờ...</p>
+</div>
+
+<form id="autoForm" asp-action="AutoUpdateCategory" method="post">
+    <input type="hidden" name="productId" value="@ViewBag.ProductId" />
+    <input type="hidden" name="parentCategoryId" value="@ViewBag.ParentCategoryId" />
+    <input type="hidden" name="childCategoryId" value="@ViewBag.ChildCategoryId" />
+</form>
+
+<script>
+    document.getElementById("autoForm").submit();
+</script>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

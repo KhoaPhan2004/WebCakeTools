@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - WebCakeTools</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="~/WebCakeTools.styles.css" asp-append-version="true" />
+
+
+</head>
+<body>
+	<header>
+
+		<div class="container pb-3 pt-3">
+			<div class="row text-center text-md-start">
+				<div class="col-12 col-md-4 mb-2 mb-md-0">
+					<a class="navbar-brand d-block mx-auto mx-md-0" asp-area="" asp-controller="Home" asp-action="Index"><h1>WebCakeTools</h1></a>
+				</div>
+				<div class="col-12 col-md-4 mb-2 mb-md-0">
+					@* <form class="search-form mt-2 mt-sm-0" role="search">
+						<div class="input-group">
+							<input type="search" class="form-control" placeholder="Tìm kiếm..." aria-label="Search">
+							<button class="btn btn-outline-secondary" type="submit">
+								<i class="fa fa-search"></i>
+							</button>
+						</div>
+					</form> *@
+					<form class="search-form mt-2 mt-sm-0" role="search" method="get" asp-controller="Home" asp-action="ProductList">
+						<div class="input-group">
+							<input type="search" class="form-control" placeholder="Tìm kiếm..." name="searchTerm" value="@Context.Request.Query["searchTerm"]">
+							<button class="btn btn-outline-secondary" type="submit">
+								<i class="fa fa-search"></i>
+							</button>
+						</div>
+					</form>
+
+
+				</div>
+				<div class="col-12 col-md-4 mb-2 mb-md-0">
+					<p class="mb-0">số điện thoại / số điện thoại</p>
+				</div>
+			</div>
+		</div>
+
+
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+			<div class="container">
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+					<ul class="navbar-nav flex-grow-1 text-nowrap">
+						<li class="nav-item me-4">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
+						</li>
+						<li class="nav-item dropdown me-4">
+							<a class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index">DANH MỤC SẢN PHẨM</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" asp-controller="Home" asp-action="ProductList">tất cả sản phẩm</a></li>
+								<li><hr class="dropdown-divider"></li>
+								@await Component.InvokeAsync("CategoryMenu")
+							</ul>
+						</li>
+						<li class="nav-item me-4">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ProductList">TẤT CẢ SẢN PHẨM</a>
+						</li>
+						<li class="nav-item me-4">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Service">DỊCH VỤ</a>
+						</li>
+						<li class="nav-item me-4">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="News">TIN TỨC</a>
+						</li>
+						<li class="nav-item me-4">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">LIÊN HỆ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">GIỚI THIỆU</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid pt-0 pe-0 ps-0">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			<div class="row text-center text-md-start py-4">
+				<div class="col-12 col-md-4 mb-3 mb-md-0">
+					<h5 class="fw-bold">📬 Liên hệ với chúng tôi</h5>
+				</div>
+				<div class="col-12 col-md-4 mb-2 mb-md-0">
+					<p class="mb-1">Email: <strong>?</strong></p>
+					<p class="mb-1">Hotline: <strong>?</strong></p>
+				</div>
+				<div class="col-12 col-md-4">
+					<p class="mb-0">Địa chỉ: ?<br>?</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

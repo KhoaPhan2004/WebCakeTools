@@ -1,0 +1,132 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model List<Product>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<style>
+	.custom-page-link {
+		background-color: #fadadd;
+		border: 1px solid #ccc;
+		color: black;
+	}
+
+		.custom-page-link:hover {
+			background-color: #fcb0d4;
+			color: black;
+		}
+
+	.category-btn {
+		border: 2px solid #fadadd;
+		color: #333;
+		background-color: white;
+		transition: 0.3s;
+	}
+
+		.category-btn:hover {
+			background-color: #ffe6f0;
+		}
+
+		.category-btn.active {
+			background-color: #fadadd;
+			color: black;
+		}
+</style>
+
+<h2 class="text-center mt-4 mb-4">
+	Sản phẩm thuộc danh mục: @ViewBag.CategoryName
+</h2>
+
+
+@if (ViewBag.ChildCategories != null && ((List<Category>)ViewBag.ChildCategories).Count > 0)
+{
+	<div class="text-center mb-4">
+		
+		<div class="d-flex justify-content-center flex-wrap gap-2 mt-2">
+			<!-- Nút Tất cả -->
+			<a class="btn category-btn @(ViewBag.SelectedChildId == null ? "active" : "")"
+			   asp-controller="Home"
+			   asp-action="ProductByCategory"
+			   asp-route-id="@ViewBag.CategoryId">
+				Tất cả
+			</a>
+
+			<!-- Các danh mục con -->
+			@foreach (var sub in (List<Category>)ViewBag.ChildCategories)
+			{
+				<a class="btn category-btn @(ViewBag.SelectedChildId == sub.CategoryId ? "active" : "")"
+				   asp-controller="Home"
+				   asp-action="ProductByCategory"
+				   asp-route-id="@ViewBag.CategoryId"
+				   asp-route-childId="@sub.CategoryId">
+					@sub.CategoryName
+				</a>
+			}
+		</div>
+	</div>
+}
+
+
+
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+			@foreach (var product in Model)
+			{
+				<div class="col mb-5">
+					<div class="col perspective-wrap">
+						<div class="card product-card">
+							<!-- Sale badge-->
+							@* <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div> *@
+							<!-- Product image-->
+							<img class="card-img-top" src="~/images/@product.ProductImage" alt="@product.ProductName" />
+							<!-- Product details-->
+							<div class="card-body p-4">
+								<div class=" text-center">
+									<p class="ellipsis-text">@product.ProductName</p>
+								</div>
+							</div>
+							<!-- Product actions-->
+							<div class="card-footer p-4 pt-0 border-top-0 bg-transparent action-container">
+								<div class="text-center action-button">
+									<a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@product.ProductId">Liên hệ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+	<nav>
+		<ul class="pagination justify-content-center">
+			@for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+			{
+				<li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+					<a class="page-link"
+					   asp-controller="Product"
+					   asp-action="ProductByCategory"
+					   asp-route-id="@ViewBag.CategoryId"
+					   asp-route-page="@i"
+					   style="background-color:#fadadd; border: 1px solid #ccc; color: black;">
+						@i
+					</a>
+				</li>
+			}
+		</ul>
+	</nav>
+
+
+</section>
+
+
+<script src="~/js/home.js" asp-append-version="true"></script>

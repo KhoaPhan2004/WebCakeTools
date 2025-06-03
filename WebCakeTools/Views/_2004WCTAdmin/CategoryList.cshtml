@@ -1,0 +1,176 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model IEnumerable<WebCakeTools.Models.Category>
+
+@{
+    ViewData["Title"] = "CategoryList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<style>
+    @@keyframes countdown {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+    
+
+    tr {
+        border-bottom: 1px solid #ecf3fb;
+    }
+
+     th, thead {
+        border-bottom-style: none;
+    }
+</style>
+@if (TempData["ErrorMessage"] != null)
+{
+   
+    <div class="alert" id="alertBox">
+        <div class="alert-content">
+            <i class="bi bi-bell-fill"></i>
+            <span class="msg">@TempData["ErrorMessage"]</span>
+            <span class="close-al" onclick="hideAlert()"><i class="bi bi-x-lg"></i></span>
+        </div>
+        <div class="alert-timer"></div>
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert" id="alertBox">
+        <div class="alert-content">
+            <i class="bi bi-bell-fill"></i>
+            <span class="msg">@TempData["SuccessMessage"]</span>
+            <span class="close-al" onclick="hideAlert()"><i class="bi bi-x-lg"></i></span>
+        </div>
+        <div class="alert-timer"></div>
+    </div>
+}
+
+
+
+
+
+<div class="container">
+    <h1>CategoryList</h1>
+    <div class="form-group mb-3">
+        <a asp-action="CreateProduct" class="btn btn-custom">Thêm</a>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive p-3 rounded-3 shadow">
+                <h5>Danh muc cha</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Tên danh mục</th>
+                            <th>Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in ViewBag.ParentCategories as IPagedList<WebCakeTools.Models.Category>)
+                        {
+                            <tr>
+                                <td>@category.CategoryName</td>
+                                <td>
+                                    <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" data-bs-toggle="tooltip" title="Edit"><i class="bi bi-pencil-square"></i></a>
+
+                                    <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" data-bs-toggle="tooltip" title="Delete"><i class="bi bi-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                @* @Html.PagedListPager(ViewBag.ParentCategories as IPagedList, page => Url.Action("CategoryList", new { page })) *@
+                @Html.PagedListPager(
+                         (IPagedList)ViewBag.ParentCategories,
+                         page => Url.Action("CategoryList", new
+                         {
+                             parentPage = page,
+                             childPage = ViewContext.HttpContext.Request.Query["childPage"]
+                         }),
+                         new X.PagedList.Mvc.Core.PagedListRenderOptions
+                {
+                    ContainerDivClasses = new[] { "navigation" },
+                    LiElementClasses = new[] { "page-item" },
+                    PageClasses = new[] { "page-link" },
+                    
+                }
+                         )
+
+
+            </div>
+            
+
+
+            
+        </div>
+        <div class="col">
+            <div class="table-responsive p-3 rounded-3 shadow">
+                <h5>Danh muc con</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Tên danh mục con</th>
+                            <th>Tên danh mục cha</th>
+                            <th>Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in ViewBag.ChildCategories as IPagedList<WebCakeTools.Models.Category>)
+                        {
+                            <tr>
+                                <td>@category.CategoryName</td>
+                                <td>@(category.Parent != null ? category.Parent.CategoryName : "Không xác định")</td>
+                                <td>
+                                    <a asp-action="UpdateCategory" asp-route-id="@category.CategoryId" data-bs-toggle="tooltip" title="Edit"><i class="bi bi-pencil-square"></i></a>
+
+                                    <a asp-action="DeleteCategory" asp-route-id="@category.CategoryId" data-bs-toggle="tooltip" title="Delete"><i class="bi bi-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                @* @Html.PagedListPager(ViewBag.ChildCategories as IPagedList, page => Url.Action("CategoryList", new { page })) *@
+                @Html.PagedListPager(
+                         (IPagedList)ViewBag.ChildCategories,
+                         page => Url.Action("CategoryList", new
+                         {
+                             childPage = page,
+                             parentPage = ViewContext.HttpContext.Request.Query["parentPage"]
+                         }),
+                         new X.PagedList.Mvc.Core.PagedListRenderOptions
+                {
+                    ContainerDivClasses = new[] { "navigation" },
+                    LiElementClasses = new[] { "page-item" },
+                    PageClasses = new[] { "page-link" },
+                    
+                }
+                         )
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+
+
+ 
+
+
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>

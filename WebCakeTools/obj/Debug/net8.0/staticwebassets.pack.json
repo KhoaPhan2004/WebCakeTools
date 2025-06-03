@@ -1,0 +1,869 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tkpkp\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebCakeTools.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebCakeTools.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\layoutAdmin.css",
+      "PackagePath": "staticwebassets\\css\\layoutAdmin.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\03d1917a-4429-45ce-8cd2-c5dd0fb5a8d7_【哲风壁纸】动漫角色-持剑.png",
+      "PackagePath": "staticwebassets\\images\\03d1917a-4429-45ce-8cd2-c5dd0fb5a8d7_【哲风壁纸】动漫角色-持剑.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\06abfc71-71fc-4420-b686-bf33554326a3_【哲风壁纸】小说-小说人物.png",
+      "PackagePath": "staticwebassets\\images\\06abfc71-71fc-4420-b686-bf33554326a3_【哲风壁纸】小说-小说人物.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\1a32c23d-2ec7-4d35-b660-8e152d094ea0_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2013acts8to9summer1200x400001_8675202696_o.jpg",
+      "PackagePath": "staticwebassets\\images\\2013acts8to9summer1200x400001_8675202696_o.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2013lifegroups-2-1200x400001_8675204934_o.jpg",
+      "PackagePath": "staticwebassets\\images\\2013lifegroups-2-1200x400001_8675204934_o.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2013psalm120to127summer1200x400001_8674098989_o.jpg",
+      "PackagePath": "staticwebassets\\images\\2013psalm120to127summer1200x400001_8674098989_o.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\222371ff-d087-476c-b95f-b8a13a8d8d0a_【哲风壁纸】吊床-安逸-插画.png",
+      "PackagePath": "staticwebassets\\images\\222371ff-d087-476c-b95f-b8a13a8d8d0a_【哲风壁纸】吊床-安逸-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\23e03a0d-c283-4778-9378-8ae3d1591bd2_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\23e03a0d-c283-4778-9378-8ae3d1591bd2_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\28613f3f-e81d-4a19-b874-e50f4b0134ef_【哲风壁纸】夜色-富士山.png",
+      "PackagePath": "staticwebassets\\images\\28613f3f-e81d-4a19-b874-e50f4b0134ef_【哲风壁纸】夜色-富士山.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2907d60b-d970-412e-918a-d6866649d671_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\29429276-d11d-4d92-975d-fd97ad1a5c4f_1ee29-16921913800998-1920.jpg",
+      "PackagePath": "staticwebassets\\images\\29429276-d11d-4d92-975d-fd97ad1a5c4f_1ee29-16921913800998-1920.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2d2ea98d-ab42-4283-903d-b827db1c4ba6_【哲风壁纸】夜色-富士山.png",
+      "PackagePath": "staticwebassets\\images\\2d2ea98d-ab42-4283-903d-b827db1c4ba6_【哲风壁纸】夜色-富士山.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\2edad3f8-72ad-4884-940e-6b6ab6cd415c_【哲风壁纸】Chris插画-插画.png",
+      "PackagePath": "staticwebassets\\images\\2edad3f8-72ad-4884-940e-6b6ab6cd415c_【哲风壁纸】Chris插画-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\33a7ff5a-0ad3-4cca-9ac8-567a7fc6620a_1ee29-16921913800998-1920.webp",
+      "PackagePath": "staticwebassets\\images\\33a7ff5a-0ad3-4cca-9ac8-567a7fc6620a_1ee29-16921913800998-1920.webp"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\4071702d-febc-4e56-9721-3eda8f11a914_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\4875bfea-2b26-4968-96cf-abe97fedc0c9_1507_ruong-sieu-cap-trong-genshin-impact-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\4875bfea-2b26-4968-96cf-abe97fedc0c9_1507_ruong-sieu-cap-trong-genshin-impact-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\4a4e7394-ad13-4e3f-b77f-cf7cf21823a9_【哲风壁纸】吊床-安逸-插画.png",
+      "PackagePath": "staticwebassets\\images\\4a4e7394-ad13-4e3f-b77f-cf7cf21823a9_【哲风壁纸】吊床-安逸-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\4e46b783-df86-4584-90f7-443760539362_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\50d560f7-6ca8-4f81-aafb-c7ed32c65c07_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\50d560f7-6ca8-4f81-aafb-c7ed32c65c07_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\51ab4e13-34fc-4b83-828a-6b81c19b9323_【哲风壁纸】小说-小说人物.png",
+      "PackagePath": "staticwebassets\\images\\51ab4e13-34fc-4b83-828a-6b81c19b9323_【哲风壁纸】小说-小说人物.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\53ddb461-b0a1-45e4-9332-2130b69b9780_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\53ddb461-b0a1-45e4-9332-2130b69b9780_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\5b309d4a-d97c-4742-a427-84a3ae037e46_02.jpg",
+      "PackagePath": "staticwebassets\\images\\5b309d4a-d97c-4742-a427-84a3ae037e46_02.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\63706fe0-5053-404f-b499-500f526260b2_【哲风壁纸】AI-创意场景.png",
+      "PackagePath": "staticwebassets\\images\\63706fe0-5053-404f-b499-500f526260b2_【哲风壁纸】AI-创意场景.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\667f43cc-9849-496b-86c4-7ed0f9f4a8d7_【哲风壁纸】列车-护眼-森林.png",
+      "PackagePath": "staticwebassets\\images\\667f43cc-9849-496b-86c4-7ed0f9f4a8d7_【哲风壁纸】列车-护眼-森林.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\6a43b72e-29da-4e20-be5e-480ced9e38b2_【哲风壁纸】吊床-安逸-插画.png",
+      "PackagePath": "staticwebassets\\images\\6a43b72e-29da-4e20-be5e-480ced9e38b2_【哲风壁纸】吊床-安逸-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\6fac9bb9-c04b-426f-8463-95e85ce387e9_【哲风壁纸】列车-护眼-森林.png",
+      "PackagePath": "staticwebassets\\images\\6fac9bb9-c04b-426f-8463-95e85ce387e9_【哲风壁纸】列车-护眼-森林.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\73b7eb40-c2a0-4c99-a351-19b910ca4d5b_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\73b7eb40-c2a0-4c99-a351-19b910ca4d5b_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\7458c778-77ff-4bb0-982e-799110bbe340_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\76e98866-2d53-4b0f-abcc-4f8d368b1bf4_1ee29-16921913800998-1920-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\76e98866-2d53-4b0f-abcc-4f8d368b1bf4_1ee29-16921913800998-1920-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\7a814510-26d6-4df8-9760-4e7adfe4cc0c_1ee29-16921913800998-1920.jpg",
+      "PackagePath": "staticwebassets\\images\\7a814510-26d6-4df8-9760-4e7adfe4cc0c_1ee29-16921913800998-1920.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\7f1e0001-989b-48b5-bd08-b37f26da778a_【哲风壁纸】动漫角色-持剑.png",
+      "PackagePath": "staticwebassets\\images\\7f1e0001-989b-48b5-bd08-b37f26da778a_【哲风壁纸】动漫角色-持剑.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\7f663a8a-c3f1-43e6-8574-831e55adb716_【哲风壁纸】Chris插画-插画.png",
+      "PackagePath": "staticwebassets\\images\\7f663a8a-c3f1-43e6-8574-831e55adb716_【哲风壁纸】Chris插画-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\826b1766-f6b6-49ca-ab63-f2b75810220d_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\826b1766-f6b6-49ca-ab63-f2b75810220d_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\8346cd0a-417d-49b9-a5b0-00919de5450e_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\8622a2e0-1b93-4d57-8467-6680dc48e86e_【哲风壁纸】穿越时空-风铃女孩.png",
+      "PackagePath": "staticwebassets\\images\\8622a2e0-1b93-4d57-8467-6680dc48e86e_【哲风壁纸】穿越时空-风铃女孩.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\8d07ffe5-40cf-45aa-8b9c-4b755e54fdcb_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\8d07ffe5-40cf-45aa-8b9c-4b755e54fdcb_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\92ef5f96-b200-4191-ab53-f95f9c3ef1ec_1ee29-16921913800998-1920.webp",
+      "PackagePath": "staticwebassets\\images\\92ef5f96-b200-4191-ab53-f95f9c3ef1ec_1ee29-16921913800998-1920.webp"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\94dd7e2f-5b2b-4e1e-8e11-6ff920f60830_【哲风壁纸】Chris插画-插画.png",
+      "PackagePath": "staticwebassets\\images\\94dd7e2f-5b2b-4e1e-8e11-6ff920f60830_【哲风壁纸】Chris插画-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\9cb7e92f-bfbb-4ec6-ba23-aab15aa4a4dc_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\Beige and Orange Organic Bakery Product Banner.png",
+      "PackagePath": "staticwebassets\\images\\Beige and Orange Organic Bakery Product Banner.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\Brown Cream Simple Creative Cake and Bakery Promotion Banner.png",
+      "PackagePath": "staticwebassets\\images\\Brown Cream Simple Creative Cake and Bakery Promotion Banner.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\Pink And Brown Cute Cake Shop Banner.png",
+      "PackagePath": "staticwebassets\\images\\Pink And Brown Cute Cake Shop Banner.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\Pink and Brown Minimelist Cake Shop Banner.png",
+      "PackagePath": "staticwebassets\\images\\Pink and Brown Minimelist Cake Shop Banner.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\Untitleddesign.png",
+      "PackagePath": "staticwebassets\\images\\Untitleddesign.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\a113819f-eb7b-4d6a-9d14-0a1ceb655efc_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\about-cake.webp",
+      "PackagePath": "staticwebassets\\images\\about-cake.webp"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\anhtrong-banner.png",
+      "PackagePath": "staticwebassets\\images\\anhtrong-banner.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\b504d3ab-0e48-4eb2-8747-f819faec22d5_【哲风壁纸】吊床-安逸-插画.png",
+      "PackagePath": "staticwebassets\\images\\b504d3ab-0e48-4eb2-8747-f819faec22d5_【哲风壁纸】吊床-安逸-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\b7aafc91-889f-41e7-b456-c7c1aeceab4a_【哲风壁纸】书房-书房装饰.png",
+      "PackagePath": "staticwebassets\\images\\b7aafc91-889f-41e7-b456-c7c1aeceab4a_【哲风壁纸】书房-书房装饰.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\b9422f6e-ac48-45a8-8825-5d54b09eb2ec_02.jpg",
+      "PackagePath": "staticwebassets\\images\\b9422f6e-ac48-45a8-8825-5d54b09eb2ec_02.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\banner-2.png",
+      "PackagePath": "staticwebassets\\images\\banner-2.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\bc50b65a-a75d-4891-91f2-b31cadec24f2_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\bd5c4bd2-d218-4f2b-88c2-87db27f1396a_【哲风壁纸】列车-护眼-森林.png",
+      "PackagePath": "staticwebassets\\images\\bd5c4bd2-d218-4f2b-88c2-87db27f1396a_【哲风壁纸】列车-护眼-森林.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\blender.png",
+      "PackagePath": "staticwebassets\\images\\blender.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\c23f5afc-e72e-4d18-937d-1f0f12288693_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\c5fc71a9-13a5-47b9-9832-1bb88d04e9dd_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\c5fc71a9-13a5-47b9-9832-1bb88d04e9dd_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\c61f55c2-508e-4f6b-9d97-5b84a71e5cf0_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\cba28902-65fe-4120-b47c-e98495e271b6_1ee29-16921913800998-1920.jpg",
+      "PackagePath": "staticwebassets\\images\\cba28902-65fe-4120-b47c-e98495e271b6_1ee29-16921913800998-1920.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\cd040bf9-e87d-4368-a00c-4cbfc443a289_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\cedcd5c7-de2a-40a6-8065-98b38a4f6b1f_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\cf40c20f-d0fd-49c0-8960-e467616d233f_【哲风壁纸】吊床-安逸-插画.png",
+      "PackagePath": "staticwebassets\\images\\cf40c20f-d0fd-49c0-8960-e467616d233f_【哲风壁纸】吊床-安逸-插画.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\christmas-lights.png",
+      "PackagePath": "staticwebassets\\images\\christmas-lights.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\d057fe73-593c-4022-b2ad-d32f2c63e395_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\d8d28b14-fd6d-433a-aab5-c5371542cb58_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\d8d28b14-fd6d-433a-aab5-c5371542cb58_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\dc851669-88b8-4a84-9d73-f1341eb892ee_1ee29-16921913800998-1920-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\dc851669-88b8-4a84-9d73-f1341eb892ee_1ee29-16921913800998-1920-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\de89f5dc-5405-4ece-9d2f-9744aedfc72f_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\e7bc2fb3-ce6a-4e79-951e-52a57bc2e0b1_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\e7bc2fb3-ce6a-4e79-951e-52a57bc2e0b1_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\e7bcbec8-a6ac-49a2-806e-29c8c6af29a1_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\efe42618-c106-4762-bb94-fe92fbb1ca32_",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\f34230fc-66b8-4639-875c-9d6a1bda08fd_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\f34230fc-66b8-4639-875c-9d6a1bda08fd_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\f4f96929-95b8-403a-bd04-6c2ff3ccad69_【哲风壁纸】夜色-富士山.png",
+      "PackagePath": "staticwebassets\\images\\f4f96929-95b8-403a-bd04-6c2ff3ccad69_【哲风壁纸】夜色-富士山.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\f677c65f-9d2d-43fe-865c-02ecac4e4f3e_【哲风壁纸】古风-红衣古装-美女.png",
+      "PackagePath": "staticwebassets\\images\\f677c65f-9d2d-43fe-865c-02ecac4e4f3e_【哲风壁纸】古风-红衣古装-美女.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\f9f3d1b0-4ff4-408f-b56a-5ed5c0f5dd63_【哲风壁纸】插画-花_出水芙蓉.png",
+      "PackagePath": "staticwebassets\\images\\f9f3d1b0-4ff4-408f-b56a-5ed5c0f5dd63_【哲风壁纸】插画-花_出水芙蓉.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\faad9c78-30b7-4e46-98c8-fc17fa850c85_1ee29-16921913800998-1920-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\faad9c78-30b7-4e46-98c8-fc17fa850c85_1ee29-16921913800998-1920-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\fd6af13c-c0b9-43f2-ba88-b7a6296398a1_【哲风壁纸】穿越时空-风铃女孩.png",
+      "PackagePath": "staticwebassets\\images\\fd6af13c-c0b9-43f2-ba88-b7a6296398a1_【哲风壁纸】穿越时空-风铃女孩.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\layers.png",
+      "PackagePath": "staticwebassets\\images\\layers.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\love.png",
+      "PackagePath": "staticwebassets\\images\\love.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\mold.png",
+      "PackagePath": "staticwebassets\\images\\mold.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\news.jpg",
+      "PackagePath": "staticwebassets\\images\\news.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\package.png",
+      "PackagePath": "staticwebassets\\images\\package.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\product1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\product2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\rolling-pin (1).png",
+      "PackagePath": "staticwebassets\\images\\rolling-pin (1).png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\sanpham1.jpg",
+      "PackagePath": "staticwebassets\\images\\sanpham1.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\sanpham2.jpg",
+      "PackagePath": "staticwebassets\\images\\sanpham2.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\season.png",
+      "PackagePath": "staticwebassets\\images\\season.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\trangtri.png",
+      "PackagePath": "staticwebassets\\images\\trangtri.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\z6594754384012_c8922154316387ae5aecdc987c6a132e.jpg",
+      "PackagePath": "staticwebassets\\images\\z6594754384012_c8922154316387ae5aecdc987c6a132e.jpg"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\images\\【哲风壁纸】光影-枫叶-梦幻森林.png",
+      "PackagePath": "staticwebassets\\images\\【哲风壁纸】光影-枫叶-梦幻森林.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\layoutAdmin.js",
+      "PackagePath": "staticwebassets\\js\\layoutAdmin.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebCakeTools.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebCakeTools.props",
+      "PackagePath": "build\\WebCakeTools.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebCakeTools.props",
+      "PackagePath": "buildMultiTargeting\\WebCakeTools.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebCakeTools.props",
+      "PackagePath": "buildTransitive\\WebCakeTools.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

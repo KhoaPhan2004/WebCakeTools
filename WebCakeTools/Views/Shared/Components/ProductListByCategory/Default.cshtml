@@ -1,0 +1,30 @@
+﻿@model List<WebCakeTools.Models.Product>
+
+
+    @foreach (var product in Model)
+    {
+	<div class="col mb-5">
+		<div class="col perspective-wrap">
+			<div class="card product-card">
+				<!-- Sale badge-->
+				@* <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div> *@
+				<!-- Product image-->
+				<img class="card-img-top" src="~/images/@product.ProductImage" alt="@product.ProductName" />
+				<!-- Product details-->
+				<div class="card-body p-4">
+					<div class=" text-center">
+						<p class="ellipsis-text">@product.ProductName</p>
+					</div>
+				</div>
+				<!-- Product actions-->
+				<div class="card-footer p-4 pt-0 border-top-0 bg-transparent action-container">
+					<div class="text-center action-button">
+						<a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@product.ProductId" >Liên hệ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    }
+

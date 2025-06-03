@@ -1,0 +1,87 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model IEnumerable<WebCakeTools.Models.Product>
+
+@{
+	ViewData["Title"] = "ProductList";
+}
+
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<style>
+	/* Giữ nguyên layout phân trang */
+	.navigation {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+		.navigation .page-item {
+			margin: 0 5px;
+		}
+
+		/* Nút mặc định */
+		.navigation .page-link {
+			background-color: #fadadd;
+			color: #000;
+			border: 1px solid #ccc;
+		}
+
+		/* Nút đang active */
+		.navigation .page-item.active .page-link {
+			background-color: #ff8ab0;
+			color: #fff;
+			border-color: #ff8ab0;
+		}
+
+		.navigation .page-link:hover {
+			background-color: #ffc1d9;
+		}
+</style>
+<h2 class="text-center mt-4 mb-4">
+	Sản phẩm 
+</h2>
+
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+			@foreach (var product in Model)
+			{
+				<div class="col mb-5">
+					<div class="col perspective-wrap">
+						<div class="card product-card">
+							<!-- Sale badge-->
+							@* <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div> *@
+							<!-- Product image-->
+							<img class="card-img-top" src="~/images/@product.ProductImage" alt="@product.ProductName" />
+							<!-- Product details-->
+							<div class="card-body p-4">
+								<div class=" text-center">
+									<p class="ellipsis-text">@product.ProductName</p>
+								</div>
+							</div>
+							<!-- Product actions-->
+							<div class="card-footer p-4 pt-0 border-top-0 bg-transparent action-container">
+								<div class="text-center action-button">
+									<a class="btn btn-outline-dark mt-auto" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@product.ProductId">Liên hệ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+	@Html.PagedListPager((IPagedList)Model, page => Url.Action("ProductList"
+			,
+			new { page = page }),
+			new X.PagedList.Mvc.Core.PagedListRenderOptions
+	{
+		ContainerDivClasses = new[] { "navigation" },
+		LiElementClasses = new[] { "page-item" },
+		PageClasses = new[] { "page-link" }
+	}
+			)
+</section>
+
+
+<script src="~/js/home.js" asp-append-version="true"></script>

@@ -1,0 +1,552 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROJECT\\Web Project\\WebCakeTools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\_2004wctadmin\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\_2004wctadmin\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\categorychildmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\categorychildmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\productnews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\productnews\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\productlistbychill\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\productlistbychill\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\productlistbycategory\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\productlistbycategory\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\shared\\components\\productcontact\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\shared\\components\\productcontact\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\controllers\\2004wctadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\controllers\\2004wctadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\_2004wctadmin\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\_2004wctadmin\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\attributes\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\attributes\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\categorychildmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\categorychildmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\productlistbychillviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\productlistbychillviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\productcontactviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\productcontactviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\productlistbycategoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\productlistbycategoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\viewcomponents\\productnewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\viewcomponents\\productnewsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|d:\\project\\web project\\webcaketools\\webcaketools\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB740F37-E099-4DB7-B83C-0A81C1903622}|WebCakeTools\\WebCakeTools.csproj|solutionrelative:webcaketools\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.css",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "WebCakeTools\\wwwroot\\css\\home.css",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "WebCakeTools\\wwwroot\\css\\home.css",
+              "ViewState": "AgIAAKUDAAAAAAAAAAAAAMYDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-03T06:21:35.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductByCategory.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\ProductByCategory.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\ProductByCategory.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\ProductByCategory.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\ProductByCategory.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvy4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T05:42:12.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Models\\ProductViewModel.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "WebCakeTools\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:59:40.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Models\\Product.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Models\\Product.cs",
+              "RelativeToolTip": "WebCakeTools\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T04:59:34.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\_2004WCTAdmin\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\_2004WCTAdmin\\ProductList.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\_2004WCTAdmin\\ProductList.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\_2004WCTAdmin\\ProductList.cshtml",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T04:46:12.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebCakeTools\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebCakeTools\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-03T04:34:16.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebCakeTools\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:55:30.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "home.js",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\home.js",
+              "RelativeDocumentMoniker": "WebCakeTools\\wwwroot\\js\\home.js",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\js\\home.js",
+              "RelativeToolTip": "WebCakeTools\\wwwroot\\js\\home.js",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-03T01:35:34.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductListByChill\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\ProductListByChill\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductListByChill\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\ProductListByChill\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T01:33:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductListByChillViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductListByChillViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\ProductListByChillViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductListByChillViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\ProductListByChillViewComponent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:31:27.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\_2004WCTAdmin\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\_2004WCTAdmin\\UpdateProduct.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\_2004WCTAdmin\\UpdateProduct.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\_2004WCTAdmin\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T01:26:02.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductListByCategory\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\ProductListByCategory\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductListByCategory\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\ProductListByCategory\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T20:04:08.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductListByCategoryViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductListByCategoryViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\ProductListByCategoryViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductListByCategoryViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\ProductListByCategoryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:30:18.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductContact\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\ProductContact\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductContact\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\ProductContact\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:52:46.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductContactViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductContactViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\ProductContactViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductContactViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\ProductContactViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:51:28.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductNewsViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductNewsViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\ProductNewsViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\ProductNewsViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\ProductNewsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:44:37.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductNews\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\ProductNews\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\ProductNews\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\ProductNews\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:41:25.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryChildMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\CategoryChildMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\CategoryChildMenuViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\CategoryChildMenuViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\CategoryChildMenuViewComponent.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:38:28.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "RelativeToolTip": "WebCakeTools\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:36:54.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Attributes\\AdminAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Attributes\\AdminAuthorizeAttribute.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Attributes\\AdminAuthorizeAttribute.cs",
+              "RelativeToolTip": "WebCakeTools\\Attributes\\AdminAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:35:51.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:35:44.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\CategoryChildMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\Components\\CategoryChildMenu\\Default.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\Components\\CategoryChildMenu\\Default.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\Components\\CategoryChildMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:35:42.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\ProductList.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\ProductList.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\ProductList.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:28:30.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAwwCsBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:24:18.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Service.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Service.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\Service.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Service.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\Service.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T12:56:57.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T12:22:38.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\News.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\News.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\News.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\News.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T12:15:17.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "layout.css",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\layout.css",
+              "RelativeDocumentMoniker": "WebCakeTools\\wwwroot\\css\\layout.css",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\wwwroot\\css\\layout.css",
+              "RelativeToolTip": "WebCakeTools\\wwwroot\\css\\layout.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T12:01:22.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T11:57:05.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebCakeTools\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:56:35.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "2004WCTAdminController.cs",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\2004WCTAdminController.cs",
+              "RelativeDocumentMoniker": "WebCakeTools\\Controllers\\2004WCTAdminController.cs",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Controllers\\2004WCTAdminController.cs",
+              "RelativeToolTip": "WebCakeTools\\Controllers\\2004WCTAdminController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwF8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:56:32.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebCakeTools\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PROJECT\\Web Project\\WebCakeTools\\WebCakeTools\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebCakeTools\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T11:53:31.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

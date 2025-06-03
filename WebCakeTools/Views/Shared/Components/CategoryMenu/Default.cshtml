@@ -1,0 +1,9 @@
+﻿@model List<WebCakeTools.Models.Category>
+
+
+    @foreach (var category in Model)
+    {
+
+    <li><a class="dropdown-item" asp-controller="Home" asp-action="ProductByCategory" asp-route-id="@category.CategoryId" >@category.CategoryName</a></li>
+    }
+

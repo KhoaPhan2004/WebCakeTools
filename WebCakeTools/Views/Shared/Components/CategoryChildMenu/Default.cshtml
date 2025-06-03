@@ -1,0 +1,15 @@
+﻿@model List<WebCakeTools.Models.Category>
+
+
+@* @foreach (var category in Model)
+{
+    <button class="tab-button" onclick="setActiveTab(this)">@category.CategoryName</button>
+    
+
+} *@
+@foreach (var category in Model)
+{
+    <button class="tab-button" data-id="@category.CategoryId" onclick="setActiveTab(this)">
+        @category.CategoryName
+    </button>
+}

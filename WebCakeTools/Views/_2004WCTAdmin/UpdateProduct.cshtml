@@ -1,0 +1,112 @@
+﻿@model WebCakeTools.Models.ProductViewModel
+
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+
+
+<div class="table-responsive p-3 m-3 rounded-3 shadow">
+    <form asp-action="UpdateProduct" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <input type="hidden" asp-for="ProductId" />
+
+        <div class="form-group mb-3">
+            <label asp-for="ProductName" class="control-label mb-2">Nhập tên sản phẩm</label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="ProductDescribe" class="control-label mb-2">Nhập mô tả sản phẩm</label>
+            <textarea class="form-control" asp-for="ProductDescribe" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <span asp-validation-for="ProductDescribe" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="ProductImage" class="control-label mb-2">Chọn ảnh sản phẩm</label>
+            <input type="file" asp-for="ProductImage" class="form-control" />
+            <span asp-validation-for="ProductImage" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.OldImagePath))
+            {
+                <div class="mt-2">
+                    <strong>Ảnh hiện tại:</strong><br />
+                    <img src="~/images/@Model.OldImagePath" style="max-width: 200px;" />
+                    <input type="hidden" asp-for="OldImagePath" /> <!-- giữ ảnh cũ -->
+                </div>
+            }
+        </div>
+
+        <!-- 2 Selects in one row -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="control-label mb-2">Danh mục cha</label>
+                <select class="form-control" asp-for="SelectedParentCategoryId" id="parentCategory" name="SelectedParentCategoryId" asp-items="ViewBag.ParentCategories" required>
+                    <option value="">-- Chọn danh mục cha --</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label mb-2">Danh mục con (không bắt buộc)</label>
+                <select class="form-control" asp-for="SelectedChildCategoryId" id="childCategory" name="SelectedChildCategoryId" asp-items="ViewBag.ChildCategories">
+                    <option value="">-- Chọn danh mục con --</option>
+                </select>
+                <span id="loading" style="display:none;">Loading...</span>
+            </div>
+        </div>
+
+        <div class="form-group d-flex gap-2">
+            <input type="submit" value="cập nhật" class="btn btn-custom" />
+            <a asp-action="ProductList" class="btn btn-custom">quay lại</a>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function() {
+            $('#parentCategory').change(function() {
+                var parentId = $(this).val();
+
+                $('#childCategory').empty();
+                $('#loading').show();
+
+                if (parentId) {
+                    $.ajax({
+                        url: '@Url.Action("GetChildCategories")',
+                        type: 'GET',
+                        data: { parentId: parentId },
+                        success: function(data) {
+                            $('#loading').hide();
+                            $('#childCategory').append('<option value="">-- Chọn danh mục con --</option>');
+
+                            $.each(data, function(i, item) {
+                                $('#childCategory').append('<option value="' + item.categoryId + '">' + item.categoryName + '</option>');
+                            });
+                        },
+                        error: function() {
+                            $('#loading').hide();
+                            alert('Không tải được danh mục con.');
+                        }
+                    });
+                } else {
+                    $('#loading').hide();
+                    $('#childCategory').append('<option value="">-- Chọn danh mục con --</option>');
+                }
+            });
+        });
+    </script>
+}

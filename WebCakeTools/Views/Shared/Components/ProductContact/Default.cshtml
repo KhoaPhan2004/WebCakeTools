@@ -1,0 +1,13 @@
+﻿@model List<WebCakeTools.Models.Product>
+
+
+    @foreach (var product in Model)
+    {
+    <div class="scroll-product-card">
+        <img src="images/@product.ProductImage" alt="@product.ProductName" draggable="false">
+        <h5>@product.ProductName</h5>
+        <a class="scroll-product-btn" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@product.ProductId" style="text-decoration: none;">Liên hệ</a>
+    </div>
+    
+    }
+

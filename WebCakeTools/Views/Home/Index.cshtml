@@ -1,0 +1,303 @@
+﻿@model List<WebCakeTools.Models.Product>
+@{
+	ViewData["Title"] = "Home Page";
+}
+@{
+	var selectedCategoryId = ViewBag.SelectedCategoryId as int? ?? 0;
+}
+
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+
+<div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+	<div class="carousel-inner">
+
+		<div class="carousel-item active">
+			<div class="banner-bg" style="background-image: url('images/Untitleddesign.png');"></div>
+			<div class="banner-content">
+				<div class="inner">
+
+					<h1>CÔNG CỤ LÀM BÁNH</h1>
+					<p>"Hãy tận hưởng những công cụ làm bánh tuyệt vời của chúng tôi!"</p>
+					<span>+ 0123456789</span>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<div class="banner-bg" style="background-image: url('images/banner-2.png');"></div>
+			<div class="banner-content">
+				<div class="inner">
+					<h1>CÁC LOẠI BÁNH QUY</h1>
+					<img class="anhtrong" src="~/images/anhtrong-banner.png" alt="Alternate Text" /><br />
+
+				</div>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<div class="banner-bg" style="background-image: url('images/Pink And Brown Cute Cake Shop Banner.png');"></div>
+			<div class="banner-content">
+				<div class="inner">
+					<h1>LIÊN HỆ CHÚNG TÔI</h1>
+					<h2 class="lienhe"><span>+ 0123456789</span></h2>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- Nút điều hướng -->
+	<button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Trước</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Tiếp</span>
+	</button>
+</div>
+
+
+
+
+<div class="container-fluid bg-light">
+	<div class="category-scroll-wrapper">
+		<div class="category-container">
+			<div class="category-item">
+				<div class="icon"><img src="~/images/blender.png" alt="Alternate Text" /></div>
+				<div class="label">Nguyên liệu làm bánh</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/package.png" alt="Alternate Text" /></div>
+				<div class="label">Bao bì-hộp</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/christmas-lights.png" alt="Alternate Text" /></div>
+				<div class="label">Đồ trang trí</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/mold.png" alt="Alternate Text" /></div>
+				<div class="label">Khuôn bánh</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/rolling-pin (1).png" alt="Alternate Text" /></div>
+				<div class="label">Dụng cụ làm bánh</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/love.png" alt="Alternate Text" /></div>
+				<div class="label">Phụ kiện mùa cưới</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/layers.png" alt="Alternate Text" /></div>
+				<div class="label">Sản phẩm khác</div>
+			</div>
+			<div class="category-item">
+				<div class="icon"><img src="~/images/season.png" alt="Alternate Text" /></div>
+				<div class="label">Sản phẩm theo mùa</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container my-4 pt-5">
+	<!-- Tiêu đề -->
+	<div class="section-title"><h2>Sản phẩm nổi bật</h2></div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid px-0 my-5">
+	<div class="combo-container">
+
+
+
+		<!-- Khung lớn bên trái -->
+		@if (Model.Count >= 1)
+		{
+			var p1 = Model[0];
+			<div class="combo-large" style="background-image: url('images/Beige and Orange Organic Bakery Product Banner.png');">
+				<div class="text-area">
+					<h5 class="text-warning fw-bold">Sản phẩm hot nhất</h5>
+					<h2 class="fw-bold">@p1.ProductName</h2>
+					<p>@p1.ProductDescribe</p>
+					<a class="btn-shop" style="text-decoration: none;" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@p1.ProductId">Liên hệ</a>
+				</div>
+				<img src="~/images/@p1.ProductImage" alt="@p1.ProductName" class="bottom-image">
+			</div>
+		}
+
+		<!-- 2 khung nhỏ bên phải -->
+		<div class="combo-small-container">
+			@if (Model.Count >= 2)
+			{
+				var p2 = Model[1];
+				<div class="combo-small" style="background-image: url('images/Pink and Brown Minimelist Cake Shop Banner.png');">
+					<div class="text">
+						<h5 class="text-warning fw-bold">Sản phẩm hot</h5>
+						<h4 class="fw-bold">@p2.ProductName</h4>
+						<a class="btn-shop" style="text-decoration: none;" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@p2.ProductId">Liên hệ</a>
+					</div>
+					<img src="~/images/@p2.ProductImage" alt="@p2.ProductName" style="max-height: 150px;">
+				</div>
+			}
+
+			@if (Model.Count >= 3)
+			{
+				var p3 = Model[2];
+				<div class="combo-small" style="background-image: url('images/Brown Cream Simple Creative Cake and Bakery Promotion Banner.png');">
+					<img src="~/images/@p3.ProductImage" alt="@p3.ProductName" style="max-height: 150px;">
+					<div class="text text-end">
+						<h5 class="text-warning fw-bold">Sản phẩm hot</h5>
+						<h4 class="fw-bold">@p3.ProductName</h4>
+						<a class="btn-shop" style="text-decoration: none;" asp-controller="Home" asp-action="AddProductContact" asp-route-id="@p3.ProductId">Liên hệ</a>
+					</div>
+				</div>
+			}
+		</div>
+
+
+	</div>
+</div>
+
+
+
+<div class="scroll-product-wrapper">
+	<div class="scroll-product-track">
+
+		@await Component.InvokeAsync("ProductContact")
+
+	</div>
+</div>
+
+
+<div class="container my-4 pt-5">
+	<!-- Tiêu đề -->
+	<div class="section-title"><h2>Sản phẩm mới nhất</h2></div>
+</div>
+
+
+
+<div class="cake-slider-wrap px-3">
+	<!-- Nút trái -->
+	<button class="cake-nav-btn cake-nav-left" onclick="cakeScroll(-1)">
+		&#10094;
+	</button>
+
+	<!-- Danh sách sản phẩm -->
+	<div class="cake-slider-track">
+
+
+		@await Component.InvokeAsync("ProductNews")
+
+
+
+		<!-- Thêm sản phẩm tùy ý -->
+	</div>
+
+	<!-- Nút phải -->
+	<button class="cake-nav-btn cake-nav-right" onclick="cakeScroll(1)">
+		&#10095;
+	</button>
+</div>
+
+
+
+
+<!--DS1-->
+<div class="container my-4 pt-5">
+	<!-- Tiêu đề -->
+	<div class="section-title"><h2>@ViewBag.FirstName</h2></div>
+
+	<!-- Dãy nút danh mục -->
+	<div class="category-tabs">
+		<button class="tab-button active" data-id="2004" onclick="setActiveTab(this)">Tất cả</button>
+
+		@await Component.InvokeAsync("CategoryChildMenu", new { index = 0 })
+
+
+	</div>
+</div>
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="product-list-container" data-parent-id="2004">
+			<!--product-->
+			
+				@await Component.InvokeAsync("ProductListByCategory", new { index = 0 })
+			
+			<!--end product-->
+		</div>
+	</div>
+	<div class="text-center mt-4">
+	<a class="btn-custom-viewmore" class="btn-light" asp-controller="Home" asp-action="ProductByCategory" asp-route-id="@ViewBag.FirstId">Xem thêm</a>
+	</div>
+</section>
+
+
+
+
+<!--DS2-->
+<div class="container my-4 pt-5">
+	<!-- Tiêu đề -->
+	<div class="section-title"><h2>@ViewBag.SecondName</h2></div>
+
+	<!-- Dãy nút danh mục -->
+	<div class="category-tabs">
+		<button class="tab-button active" data-id="2003" onclick="setActiveTab(this)">Tất cả</button>
+		@await Component.InvokeAsync("CategoryChildMenu", new { index = 1 })
+
+	</div>
+</div>
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="product-list-container" data-parent-id="2003">
+			<!--product-->
+			@await Component.InvokeAsync("ProductListByCategory", new { index = 1 })
+			<!--end product-->
+		</div>
+	</div>
+	<div class="text-center mt-4">
+	<a class="btn-custom-viewmore" asp-controller="Home" asp-action="ProductByCategory" asp-route-id="@ViewBag.SecondId">Xem thêm</a>
+	</div>
+</section>
+
+
+
+
+<!--DS3-->
+<div class="container my-4 pt-5">
+	<!-- Tiêu đề -->
+	<div class="section-title"><h2>@ViewBag.thirdName</h2></div>
+
+	<!-- Dãy nút danh mục -->
+	<div class="category-tabs">
+		<button class="tab-button active" data-id="2002" onclick="setActiveTab(this)">Tất cả</button>
+		@await Component.InvokeAsync("CategoryChildMenu", new { index = 2 })
+
+	</div>
+</div>
+<section class="py-5">
+	<div class="container px-4 px-lg-5 mt-5">
+		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="product-list-container" data-parent-id="2002">
+			<!--product-->
+			@await Component.InvokeAsync("ProductListByCategory", new { index = 2 })
+
+			<!--end product-->
+		</div>
+	</div>
+	<div class="text-center mt-4">
+	<a class="btn-custom-viewmore" class="btn-light" asp-controller="Home" asp-action="ProductByCategory" asp-route-id="@ViewBag.thirdId">Xem thêm</a>
+</div>
+</section>
+<script src="~/js/home.js" asp-append-version="true"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>

@@ -1,0 +1,100 @@
+﻿
+:root {
+    --main-color: #FADADD;       /* Hồng pastel */
+    --background-color: #FFFFFF; /* Trắng */
+    --accent-color: #DDB892;     /* Nâu nhạt */
+    --text-color: #5c3a21;       /* Nâu đậm dễ đọc */
+}
+
+
+
+/* Body */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: system-ui, sans-serif;
+}
+
+/* ==== HEADER AREA ==== */
+header {
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Top container with 3 columns */
+header .container .row {
+    align-items: center;
+}
+
+/* Logo */
+.navbar-brand {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* Search */
+.search-form input {
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+.search-form button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+.search-form button:hover {
+    background-color: #c79c75;
+}
+
+/* Contact info (column 3) */
+header p {
+    color: var(--text-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+/* ==== NAVBAR MENU ==== */
+.navbar {
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--accent-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+    .navbar .nav-link {
+        color: var(--text-color) !important;
+        font-weight: 500;
+        font-weight: bold;
+    }
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #9c6b4e !important;
+    font-weight: bold;
+}
+
+/* ==== FOOTER ==== */
+footer {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 1rem 0;
+    border-top: 2px solid var(--accent-color);
+
+}
+main {
+    margin-bottom: 300px; /* hoặc nhiều hơn nếu footer bạn cao hơn */
+}
+
+/* ==== UTILS ==== */
+.nav-link.active {
+    color: var(--accent-color) !important;
+    font-weight: bold;
+}
+
+

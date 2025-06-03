@@ -1,0 +1,180 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model IEnumerable<WebCakeTools.Models.Product>
+
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<style>
+    @@keyframes countdown {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    thead {
+        background-color: #f3f3f3;
+    }
+
+    .table th, .table td {
+        border-bottom: none;
+        padding: 20px;
+    }
+
+    .rounded-thead th:first-child {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    .rounded-thead th:last-child {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .tablemau {
+        background-color: #f8f8f8;
+    }
+
+        .tablemau td:first-child {
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        .tablemau td:last-child {
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+    .table-responsive {
+        background-color: white;
+    }
+
+    td img {
+        display: block;
+        margin: auto;
+    }
+</style>
+
+
+<h1>ProductList</h1>
+
+
+@if (TempData["ErrorMessage"] != null)
+{
+
+    <div class="alert" id="alertBox">
+        <div class="alert-content">
+            <i class="bi bi-bell-fill"></i>
+            <span class="msg">@TempData["ErrorMessage"]</span>
+            <span class="close-al" onclick="hideAlert()"><i class="bi bi-x-lg"></i></span>
+        </div>
+        <div class="alert-timer"></div>
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+
+    <div class="alert" id="alertBox">
+        <div class="alert-content">
+            <i class="bi bi-bell-fill"></i>
+            <span class="msg">@TempData["SuccessMessage"]</span>
+            <span class="close-al" onclick="hideAlert()"><i class="bi bi-x-lg"></i></span>
+        </div>
+        <div class="alert-timer"></div>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-responsive p-3 m-3 rounded-3 shadow-sm">
+    <div class="form-group mb-3">
+        <a asp-action="CreateProduct" class="btn btn-custom">Thêm</a>
+    </div>
+    <h5>Danh mục sản phẩm</h5>
+    <table class="table">
+        <thead class="rounded-thead text-center align-middle">
+            <tr>
+                <th>Ảnh</th>
+                <th>@Html.DisplayNameFor(model => model.First().ProductName)</th>
+                <th>@Html.DisplayNameFor(model => model.First().ProductDescribe)</th>
+                <th>Category cha</th>
+                <th>Category con</th>
+                <th>Contact</th>
+                <th>@Html.DisplayNameFor(model => model.First().CreatedAt)</th>
+                <th>@Html.DisplayNameFor(model => model.First().UpdatedAt)</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var index = 0;
+            }
+            @foreach (var item in Model)
+            {
+                var rowClass = index % 2 == 0 ? "tablenomau" : "tablemau";
+                var parentCategory = item.ProductCategories
+                .Select(pc => pc.Category)
+                .FirstOrDefault(c => c.ParentId == null);
+                var childCategory = item.ProductCategories
+                .Select(pc => pc.Category)
+                .FirstOrDefault(c => c.ParentId != null);
+                <tr class="@rowClass text-center align-middle">
+                    <td>
+                        <img src="~/images/@item.ProductImage" alt="Ảnh sản phẩm" width="100px" style="max-height: 100px; object-fit: contain;" />
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductDescribe)</td>
+                    <td>@(parentCategory?.CategoryName ?? "Không có")</td>
+                    <td>@(childCategory?.CategoryName ?? "Không có")</td>
+                    <td>@Html.DisplayFor(modelItem => item.Contact)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UpdatedAt)</td>
+                    <td>
+                        <a asp-action="UpdateProduct" asp-route-id="@item.ProductId" data-bs-toggle="tooltip" title="Edit"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Details" asp-route-id="@item.ProductId" data-bs-toggle="tooltip" title="Details"><i class="bi bi-eye"></i></a>
+                        <a asp-action="DeleteProduct" asp-route-id="@item.ProductId" data-bs-toggle="tooltip" title="Delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                </tr>
+                index++;
+            }
+        </tbody>
+    </table>
+    @Html.PagedListPager(
+            (IPagedList)Model,
+            page => Url.Action("ProductList", new { page = page, searchTerm = ViewBag.SearchTerm }),
+            new X.PagedList.Mvc.Core.PagedListRenderOptions
+    {
+        ContainerDivClasses = new[] { "navigation" },
+        LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" }
+    }
+            )
+
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>
+
+
