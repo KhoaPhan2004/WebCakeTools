@@ -1,0 +1,966 @@
+﻿/**/
+
+.sprinkle {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.8;
+    animation: sprinkleFade 0.6s ease-out forwards;
+}
+
+@keyframes sprinkleFade {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+
+
+.ellipsis-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px; /* mặc định cho mobile */
+}
+
+@@media (min-width: 576px) { /* SM - tablet dọc */
+    .ellipsis-text {
+        max-width: 150px;
+    }
+}
+
+@@media (min-width: 768px) { /* MD - tablet ngang trở lên */
+    .ellipsis-text {
+        max-width: 200px;
+    }
+}
+
+@@media (min-width: 992px) { /* LG - desktop */
+    .ellipsis-text {
+        max-width: 240px;
+    }
+}
+
+
+
+.perspective-wrap {
+    perspective: 1000px;
+}
+
+section p {
+   
+    font-weight: 500;
+   
+}
+
+
+/*--------------------------------------CSS San Pham-----------------------------------------*/
+
+/* Giữ chiều cao cố định để không bị giật khi hover */
+.product-card .action-container {
+    position: relative;
+    height: 60px; /* tùy chỉnh theo nút */
+    overflow: hidden;
+}
+
+/* Nút ẩn ban đầu, trượt lên khi hover */
+.product-card .action-button {
+    position: absolute;
+    left: 50%;
+    bottom: 22px; /* tạo khoảng cách với mép dưới */
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    width: max-content;
+}
+
+/* Khi hover card, hiện nút ra giữa */
+.product-card:hover .action-button {
+    transform: translate(-50%, 0);
+    opacity: 1;
+}
+
+.product-card {
+    transition: background-color 0.4s ease, border-color 0.4s ease;
+    background-color: #ffffff; /* nền mặc định */
+    border: 1px solid #eee;
+}
+        /* Nút khi hover vào card: đổi border & text */
+        .product-card:hover .btn-outline-dark {
+            border-color: #5c3a21;
+            color: #5c3a21;
+        }
+
+    /* Nếu muốn đổi màu nền nút khi rê vào chính nút */
+    .product-card .btn-outline-dark:hover {
+        background-color: #5c3a21;
+        color: #ffffff;
+        border-color: #5c3a21;
+    }
+
+
+    /* Đảm bảo ảnh có tỷ lệ cố định, không bị kéo dài */
+    .product-card .card-img-top {
+        width: 100%;
+        aspect-ratio: 4 / 3; /* Tỷ lệ ngang 4 : 3 (hoặc 3:2, tùy bạn) */
+        object-fit: cover;
+    }
+
+/* Đảm bảo card không bị kéo dài quá trên mobile */
+@media (max-width: 768px) {
+    .product-card {
+        height: auto;
+    }
+
+        .product-card .card-body,
+        .product-card .card-footer {
+            padding: 1rem;
+        }
+
+        .product-card .card-footer {
+            height: 60px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------CSS muc luc-----------------------------------------*/
+
+
+
+
+
+
+
+.category-scroll-wrapper {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 10px 0;
+}
+
+    .category-scroll-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+.category-container {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+    min-width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.category-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 90px;
+    flex-shrink: 0;
+}
+
+    .category-item:hover .icon {
+        transform: translateY(-10px) scale(1.1);
+    }
+
+.icon {
+    font-size: 36px;
+    transition: transform 0.3s ease;
+}
+
+.label {
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------CSS banner-----------------------------------------*/
+
+
+.carousel-item {
+    height: 650px;
+    
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+.banner-content .anhtrong{
+    width:300px;
+}
+
+.banner-bg {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-content h1 {
+    color: #9a3e3e;
+    font-size: 4em;
+    font-weight:bold;
+}
+
+.banner-content span {
+    padding: 8px;
+    background-color: #bf7070;
+    color:white;
+    border-radius:30px
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+    .banner-content .inner {
+        transition: transform 0.2s ease;
+        
+    }
+    .banner-content h2 {
+        margin-top: 40px;
+    }
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px; /* giảm kích thước vùng bấm */
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 250px;
+    }
+
+    .banner-content span {
+        font-size:0.6rem;
+        padding:5px;
+    }
+    .banner-content h2 {
+        font-size: 1.6rem;
+        margin-top: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .banner-content .anhtrong {
+        width:100px;
+    }
+
+
+    .banner-content p {
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------CSS tieu de SP và muc luc SP-----------------------------------------*/
+
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.tab-button {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+    .tab-button::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #007bff;
+        transition: width 0.3s ease;
+    }
+
+    .tab-button:hover::after,
+    .tab-button.active::after {
+        width: 100%;
+    }
+
+/* Ẩn scrollbar khi cuộn ngang */
+.category-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.category-tabs {
+    -ms-overflow-style: none; /* IE */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------CSS sản phẩm nổi bật-------------------------------------*/
+
+
+
+/*.custom-slider-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+.custom-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+    .custom-slider::-webkit-scrollbar {
+        display: none;
+    }
+
+.custom-slide {
+    flex: 0 0 auto;
+    width: 280px;
+}
+
+.custom-card {
+    background: #fff;
+    border: 1px solid #ddb892;
+    perspective: 1000px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 10px
+}
+
+.custom-inner {
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+.custom-img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+.custom-footer-container {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+
+.custom-btn-wrap {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    width: max-content;
+}
+
+.custom-card:hover .custom-btn-wrap {
+    transform: translate(-50%, 0);
+    opacity: 1;
+}
+
+.custom-btn-scroll {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #343a40;
+    color: white;
+    border: none;
+    z-index: 10;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.custom-prev {
+    left: 0;
+}
+
+.custom-next {
+    right: 0;
+}
+
+.custom-btn:hover {
+    background-color: #5c3a21;
+    color: white;
+    border-color: #5c3a21;
+}
+
+.custom-btn {
+    border: 1px solid #5c3a21;
+    color: #5c3a21;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------CSS banner box--------------------------------------------------------*/
+
+
+.combo-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.combo-large {
+    flex: 1 1 60%;
+    border: 1px solid #ddb892;
+    border-left: none;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    padding: 30px;
+    position: relative;
+    min-height: 500px;
+}
+
+    .combo-large .text-area {
+        position: relative;
+        max-width: 60%;
+        z-index: 2;
+    }
+
+    .combo-large .bottom-image {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        max-height: 400px;
+        width: auto;
+        z-index: 1;
+    }
+
+.combo-small-container {
+    flex: 1 1 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.combo-small {
+    border: 1px solid #ddb892;
+    border-right: none;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+    .combo-small .text {
+        max-width: 60%;
+    }
+
+.btn-shop {
+    background-color: #ffc107;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .combo-container {
+        flex-direction: column;
+    }
+    .combo-large{
+        margin-right:10px;
+    }
+    .combo-large, .combo-small-container {
+        flex: 1 1 100%;
+    }
+
+    /* ⚠️ Giữ layout ngang cho combo nhỏ */
+    .combo-small {
+        flex-direction: row; /* giữ ngang */
+        text-align: left;
+        margin-left:10px;
+    }
+
+        .combo-small img {
+            max-width: 40%; /* thu nhỏ hình */
+            height: auto;
+        }
+
+        .combo-small .text {
+            max-width: 60%;
+            margin-bottom: 0;
+            padding-right: 10px;
+        }
+
+            .combo-small .text.text-end {
+                text-align: right;
+                padding-left: 10px;
+                padding-right: 0;
+            }
+
+    .combo-large .text-area {
+        max-width: 100%;
+    }
+    .combo-large {
+        min-height: 350px; /* 🔧 Thu nhỏ khung lớn trên mobile */
+    }
+        .combo-large .bottom-image {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            max-width: 50%; /* Không quá to */
+            height: auto;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------CSS sản phẩm di chuyển-----------------------------------------------*/
+
+
+
+.scroll-product-card img {
+    width: 100%;
+    height: 150px; /* ✅ cố định chiều cao để ảnh đều nhau */
+    object-fit: cover; /* ✅ ảnh sẽ tự co/cắt để không méo */
+    border-radius: 8px;
+    
+    pointer-events: none; /* ảnh không nhận sự kiện kéo nữa */
+}
+
+
+.scroll-product-wrapper {
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    cursor: grab;
+    padding: 20px 0;
+    white-space: nowrap; /* Giữ các phần tử không xuống dòng */
+    user-select: none;
+}
+
+.scroll-product-wrapper {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+    .scroll-product-wrapper::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+.scroll-product-track {
+    display: inline-flex; /* inline-flex để phù hợp với white-space nowrap */
+    gap: 20px;
+}
+
+.scroll-product-card {
+    display: inline-block; /* để nằm ngang và không bị wrap */
+    min-width: 200px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    vertical-align: top;
+}
+
+
+    .scroll-product-card img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .scroll-product-card:hover {
+        transform: scale(1.07);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+.scroll-product-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+@keyframes scroll-product-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ẩn mặc định các phần có hiệu ứng */
+.cake-product-card .cake-sale-badge {
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+
+}
+
+.cake-product-card .card-body {
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+
+.cake-product-card .cake-contact-footer {
+    opacity: 0; /*Ẩn*/
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+
+.cake-product-card .card-img-top {
+    width: 100%;
+    aspect-ratio: 4 / 3; /* Tỷ lệ ngang 4 : 3 (hoặc 3:2, tùy bạn) */
+    object-fit: cover;
+}
+
+.cake-product-card {
+    transition: all 0.4s ease;
+}
+/* Hover: hiển thị border và animation */
+    .cake-product-card:hover {
+        border: 1.5px solid #9a3e3e; /* màu pastel nhẹ */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+    .cake-product-card .btn-outline-dark:hover {
+        background-color: #5c3a21;
+        color: #ffffff;
+        border-color: #5c3a21;
+    }
+    /* Hover: hiện sale badge và nút liên hệ */
+        .cake-product-card:hover .card-body,
+        .cake-product-card:hover .cake-sale-badge,
+        .cake-product-card:hover .cake-contact-footer {
+            opacity: 1; /*hiện*/
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+/* Nút liên hệ hover thêm hiệu ứng nhẹ */
+.cake-contact-button {
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Wrapper slider */
+.cake-slider-wrap {
+    position: relative;
+    overflow: hidden;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #f1f1f1;
+}
+
+/* Track scroll ngang */
+.cake-slider-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0 1rem 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+    .cake-slider-track::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge */
+    }
+
+/* Item */
+.cake-card-item {
+    flex: 0 0 calc((100% - 5rem) / 6); /* 6 sản phẩm, 5 khoảng cách (5 x 1rem) */
+    scroll-snap-align: start;
+}
+
+    
+
+/* Button chuyển */
+.cake-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #9a3e3e; /* hồng đậm */
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* ← Làm nút tròn */
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+    .cake-nav-btn:hover {
+        background: #9a3e3ead;
+        transform: translateY(-50%) scale(1.1); /* Phóng nhẹ khi hover */
+    }
+
+.cake-nav-left {
+    left: 0.3rem;
+}
+
+.cake-nav-right {
+    right: 0.3rem;
+}
+
+/* Hover: hiện nút */
+.cake-slider-wrap:hover .cake-nav-btn {
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    .cake-card-item {
+        flex: 0 0 calc((100% - 4rem) / 5); /* 5 sp */
+    }
+}
+
+@media (max-width: 992px) {
+    .cake-card-item {
+        flex: 0 0 calc((100% - 3rem) / 4); /* 4 sp */
+    }
+}
+
+@media (max-width: 768px) {
+    .cake-card-item {
+        flex: 0 0 calc((100% - 2rem) / 3); /* 3 sp */
+    }
+}
+
+@media (max-width: 576px) {
+    .cake-card-item {
+        flex: 0 0 calc((100% - 1rem) / 2); /* 2 sp */
+    }
+}
+
+
+
+
+
+
+.btn-custom-viewmore {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fadadd;
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .btn-custom-viewmore:hover {
+        background-color: #fadadd;
+        color: white;
+    }

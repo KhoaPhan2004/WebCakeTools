@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCakeTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c09adc1396d91c023c916b42b0fd746a87a5ad72")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCakeTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCakeTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
